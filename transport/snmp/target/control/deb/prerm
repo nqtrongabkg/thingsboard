@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+if [ -e /var/run/tb-snmp-transport/tb-snmp-transport.pid ]; then
+    service tb-snmp-transport stop
+fi
+
+exit 0

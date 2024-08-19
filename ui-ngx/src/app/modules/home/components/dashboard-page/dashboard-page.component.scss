@@ -156,6 +156,7 @@ div.tb-dashboard-page {
   }
 
   section.tb-powered-by-footer {
+    display: none;
     position: absolute;
     right: 25px;
     bottom: 5px;
@@ -164,7 +165,7 @@ div.tb-dashboard-page {
 
     span {
       font-size: 12px;
-
+      display: none;
       a {
         font-weight: 700;
         text-decoration: none;
