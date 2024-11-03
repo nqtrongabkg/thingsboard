@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-if [ -e /var/run/tb-lwm2m-transport/tb-lwm2m-transport.pid ]; then
-    service tb-lwm2m-transport stop
-fi
-
-exit 0

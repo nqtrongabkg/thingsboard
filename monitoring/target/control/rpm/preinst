@@ -1,6 +1,0 @@
-#!/bin/sh
-
-getent group thingsboard >/dev/null || groupadd -r thingsboard
-getent passwd thingsboard >/dev/null || \
-useradd -d /usr/share/tb-monitoring -g thingsboard -M -r thingsboard -s /sbin/nologin \
--c "Thingsboard application"

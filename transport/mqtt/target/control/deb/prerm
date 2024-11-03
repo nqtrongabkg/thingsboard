@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-if [ -e /var/run/tb-mqtt-transport/tb-mqtt-transport.pid ]; then
-    service tb-mqtt-transport stop
-fi
-
-exit 0

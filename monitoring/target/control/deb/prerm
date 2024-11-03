@@ -1,9 +1,0 @@
-#!/bin/sh
-
-set -e
-
-if [ -e /var/run/tb-monitoring/tb-monitoring.pid ]; then
-    service tb-monitoring stop
-fi
-
-exit 0
